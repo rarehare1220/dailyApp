@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1DE5F81B0864380018DA9B /* ViewControllerAA.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE5F61B0864380018DA9B /* ViewControllerAA.m */; };
+		AA1DE5F91B0864380018DA9B /* ViewControllerAA.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1DE5F71B0864380018DA9B /* ViewControllerAA.xib */; };
+		AA1DE5FB1B088E410018DA9B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1DE5FA1B088E410018DA9B /* CoreData.framework */; };
+		AA1DE5FE1B088F120018DA9B /* DailyTourModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE5FC1B088F120018DA9B /* DailyTourModel.xcdatamodeld */; };
+		AA1DE6071B0892BB0018DA9B /* AddPlanController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6061B0892BB0018DA9B /* AddPlanController.m */; };
+		AA1DE60A1B08B00F0018DA9B /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6091B08B00F0018DA9B /* HomeController.m */; };
+		AA1DE6111B08B8150018DA9B /* DiaryController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6101B08B8150018DA9B /* DiaryController.m */; };
+		AA1DE6141B08B8F00018DA9B /* DiaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6131B08B8F00018DA9B /* DiaryCell.m */; };
+		AA1DE61D1B08C8DF0018DA9B /* PlanList.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE61C1B08C8DF0018DA9B /* PlanList.m */; };
+		AA1DE6201B08C8E00018DA9B /* Plan.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE61F1B08C8E00018DA9B /* Plan.m */; };
+		AA1DE6231B08C8E00018DA9B /* Diary.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6221B08C8E00018DA9B /* Diary.m */; };
+		AA1DE6261B08C8E00018DA9B /* DiaryList.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6251B08C8E00018DA9B /* DiaryList.m */; };
+		AA1DE6291B08CFD80018DA9B /* AddDiaryController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6281B08CFD80018DA9B /* AddDiaryController.m */; };
+		AA1DE62D1B08D4640018DA9B /* ListDailyShortController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE62C1B08D4640018DA9B /* ListDailyShortController.m */; };
+		AA1DE6311B08D4CB0018DA9B /* DailyShortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6301B08D4CB0018DA9B /* DailyShortCell.m */; };
+		AA1DE6341B08EACF0018DA9B /* AddDailyShortController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6331B08EACF0018DA9B /* AddDailyShortController.m */; };
+		AA1DE6381B08EB1C0018DA9B /* ListHabbitController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6371B08EB1C0018DA9B /* ListHabbitController.m */; };
+		AA1DE63B1B08EB2D0018DA9B /* HabbitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE63A1B08EB2D0018DA9B /* HabbitCell.m */; };
+		AA1DE63E1B08EB470018DA9B /* AddHabbitController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE63D1B08EB470018DA9B /* AddHabbitController.m */; };
+		AA1DE6421B08EB860018DA9B /* TimeCapsuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6411B08EB860018DA9B /* TimeCapsuleController.m */; };
+		AA1DE6451B08F73D0018DA9B /* DailyshortList.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6441B08F73D0018DA9B /* DailyshortList.m */; };
+		AA1DE6481B08F73E0018DA9B /* Timecapsule.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6471B08F73E0018DA9B /* Timecapsule.m */; };
+		AA1DE64B1B08F73E0018DA9B /* TimecapsuleList.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE64A1B08F73E0018DA9B /* TimecapsuleList.m */; };
+		AA1DE64E1B08F73E0018DA9B /* Habbit.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE64D1B08F73E0018DA9B /* Habbit.m */; };
+		AA1DE6511B08F73E0018DA9B /* HabbitList.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6501B08F73E0018DA9B /* HabbitList.m */; };
+		AA1DE6541B08F73E0018DA9B /* Dailyshort.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DE6531B08F73E0018DA9B /* Dailyshort.m */; };
+		AA1DE6561B090B600018DA9B /* house-grey-md.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1DE6551B090B600018DA9B /* house-grey-md.png */; };
+		AA1DE6581B090C020018DA9B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1DE6571B090C020018DA9B /* home.png */; };
 		AA4F67AB1B031EB5000C23FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4F67AA1B031EB5000C23FE /* main.m */; };
 		AA4F67AE1B031EB5000C23FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4F67AD1B031EB5000C23FE /* AppDelegate.m */; };
 		AA4F67B11B031EB5000C23FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4F67B01B031EB5000C23FE /* ViewController.m */; };
@@ -14,6 +42,18 @@
 		AA4F67B61B031EB5000C23FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4F67B51B031EB5000C23FE /* Images.xcassets */; };
 		AA4F67B91B031EB5000C23FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4F67B71B031EB5000C23FE /* LaunchScreen.xib */; };
 		AA4F67C51B031EB5000C23FE /* dailyTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4F67C41B031EB5000C23FE /* dailyTourTests.m */; };
+		AAD608A01B0752D2007D0E99 /* AAShareBubbles.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD6089F1B0752D2007D0E99 /* AAShareBubbles.m */; };
+		AAD608A21B0752F3007D0E99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD608A11B0752F3007D0E99 /* UIKit.framework */; };
+		AAD608A41B07530F007D0E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD608A31B07530F007D0E99 /* Foundation.framework */; };
+		AAD608A61B07531A007D0E99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD608A51B07531A007D0E99 /* CoreGraphics.framework */; };
+		AAD608AD1B07535C007D0E99 /* icon-share.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD608A71B07535C007D0E99 /* icon-share.png */; };
+		AAD608AE1B07535C007D0E99 /* icon-share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD608A81B07535C007D0E99 /* icon-share@2x.png */; };
+		AAD608AF1B07535C007D0E99 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD608AA1B07535C007D0E99 /* Default.png */; };
+		AAD608B01B07535C007D0E99 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD608AB1B07535C007D0E99 /* Default@2x.png */; };
+		AAD608B11B07535C007D0E99 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD608AC1B07535C007D0E99 /* Default-568h@2x.png */; };
+		AAD608B31B07537B007D0E99 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD608B21B07537B007D0E99 /* View.xib */; };
+		AAD608B61B075D10007D0E99 /* ListPlanController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD608B51B075D10007D0E99 /* ListPlanController.m */; };
+		AAD608B91B075DDA007D0E99 /* PlanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD608B81B075DDA007D0E99 /* PlanCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +67,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA1DE5F51B0864380018DA9B /* ViewControllerAA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAA.h; sourceTree = "<group>"; };
+		AA1DE5F61B0864380018DA9B /* ViewControllerAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAA.m; sourceTree = "<group>"; };
+		AA1DE5F71B0864380018DA9B /* ViewControllerAA.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerAA.xib; sourceTree = "<group>"; };
+		AA1DE5FA1B088E410018DA9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA1DE5FD1B088F120018DA9B /* DailyTourModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyTourModel.xcdatamodel; sourceTree = "<group>"; };
+		AA1DE6051B0892BB0018DA9B /* AddPlanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlanController.h; sourceTree = "<group>"; };
+		AA1DE6061B0892BB0018DA9B /* AddPlanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlanController.m; sourceTree = "<group>"; };
+		AA1DE6081B08B00F0018DA9B /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		AA1DE6091B08B00F0018DA9B /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		AA1DE60F1B08B8150018DA9B /* DiaryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiaryController.h; path = dailyTour/DiaryController.h; sourceTree = "<group>"; };
+		AA1DE6101B08B8150018DA9B /* DiaryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiaryController.m; path = dailyTour/DiaryController.m; sourceTree = "<group>"; };
+		AA1DE6121B08B8F00018DA9B /* DiaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiaryCell.h; path = dailyTour/DiaryCell.h; sourceTree = "<group>"; };
+		AA1DE6131B08B8F00018DA9B /* DiaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiaryCell.m; path = dailyTour/DiaryCell.m; sourceTree = "<group>"; };
+		AA1DE61B1B08C8DF0018DA9B /* PlanList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanList.h; sourceTree = "<group>"; };
+		AA1DE61C1B08C8DF0018DA9B /* PlanList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanList.m; sourceTree = "<group>"; };
+		AA1DE61E1B08C8E00018DA9B /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
+		AA1DE61F1B08C8E00018DA9B /* Plan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plan.m; sourceTree = "<group>"; };
+		AA1DE6211B08C8E00018DA9B /* Diary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Diary.h; path = dailyTour/Diary.h; sourceTree = "<group>"; };
+		AA1DE6221B08C8E00018DA9B /* Diary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Diary.m; path = dailyTour/Diary.m; sourceTree = "<group>"; };
+		AA1DE6241B08C8E00018DA9B /* DiaryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiaryList.h; path = dailyTour/DiaryList.h; sourceTree = "<group>"; };
+		AA1DE6251B08C8E00018DA9B /* DiaryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiaryList.m; path = dailyTour/DiaryList.m; sourceTree = "<group>"; };
+		AA1DE6271B08CFD80018DA9B /* AddDiaryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddDiaryController.h; path = dailyTour/AddDiaryController.h; sourceTree = "<group>"; };
+		AA1DE6281B08CFD80018DA9B /* AddDiaryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddDiaryController.m; path = dailyTour/AddDiaryController.m; sourceTree = "<group>"; };
+		AA1DE62B1B08D4640018DA9B /* ListDailyShortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDailyShortController.h; sourceTree = "<group>"; };
+		AA1DE62C1B08D4640018DA9B /* ListDailyShortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDailyShortController.m; sourceTree = "<group>"; };
+		AA1DE62F1B08D4CB0018DA9B /* DailyShortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyShortCell.h; sourceTree = "<group>"; };
+		AA1DE6301B08D4CB0018DA9B /* DailyShortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyShortCell.m; sourceTree = "<group>"; };
+		AA1DE6321B08EACF0018DA9B /* AddDailyShortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDailyShortController.h; sourceTree = "<group>"; };
+		AA1DE6331B08EACF0018DA9B /* AddDailyShortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDailyShortController.m; sourceTree = "<group>"; };
+		AA1DE6361B08EB1C0018DA9B /* ListHabbitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListHabbitController.h; sourceTree = "<group>"; };
+		AA1DE6371B08EB1C0018DA9B /* ListHabbitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListHabbitController.m; sourceTree = "<group>"; };
+		AA1DE6391B08EB2D0018DA9B /* HabbitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabbitCell.h; sourceTree = "<group>"; };
+		AA1DE63A1B08EB2D0018DA9B /* HabbitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabbitCell.m; sourceTree = "<group>"; };
+		AA1DE63C1B08EB470018DA9B /* AddHabbitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddHabbitController.h; sourceTree = "<group>"; };
+		AA1DE63D1B08EB470018DA9B /* AddHabbitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddHabbitController.m; sourceTree = "<group>"; };
+		AA1DE6401B08EB860018DA9B /* TimeCapsuleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeCapsuleController.h; sourceTree = "<group>"; };
+		AA1DE6411B08EB860018DA9B /* TimeCapsuleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeCapsuleController.m; sourceTree = "<group>"; };
+		AA1DE6431B08F73D0018DA9B /* DailyshortList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyshortList.h; sourceTree = "<group>"; };
+		AA1DE6441B08F73D0018DA9B /* DailyshortList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyshortList.m; sourceTree = "<group>"; };
+		AA1DE6461B08F73E0018DA9B /* Timecapsule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timecapsule.h; sourceTree = "<group>"; };
+		AA1DE6471B08F73E0018DA9B /* Timecapsule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timecapsule.m; sourceTree = "<group>"; };
+		AA1DE6491B08F73E0018DA9B /* TimecapsuleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimecapsuleList.h; sourceTree = "<group>"; };
+		AA1DE64A1B08F73E0018DA9B /* TimecapsuleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimecapsuleList.m; sourceTree = "<group>"; };
+		AA1DE64C1B08F73E0018DA9B /* Habbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Habbit.h; sourceTree = "<group>"; };
+		AA1DE64D1B08F73E0018DA9B /* Habbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Habbit.m; sourceTree = "<group>"; };
+		AA1DE64F1B08F73E0018DA9B /* HabbitList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabbitList.h; sourceTree = "<group>"; };
+		AA1DE6501B08F73E0018DA9B /* HabbitList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabbitList.m; sourceTree = "<group>"; };
+		AA1DE6521B08F73E0018DA9B /* Dailyshort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dailyshort.h; sourceTree = "<group>"; };
+		AA1DE6531B08F73E0018DA9B /* Dailyshort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dailyshort.m; sourceTree = "<group>"; };
+		AA1DE6551B090B600018DA9B /* house-grey-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house-grey-md.png"; sourceTree = "<group>"; };
+		AA1DE6571B090C020018DA9B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		AA4F67A51B031EB5000C23FE /* dailyTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4F67A91B031EB5000C23FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4F67AA1B031EB5000C23FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +131,22 @@
 		AA4F67BE1B031EB5000C23FE /* dailyTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailyTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4F67C31B031EB5000C23FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4F67C41B031EB5000C23FE /* dailyTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dailyTourTests.m; sourceTree = "<group>"; };
+		AAD6089E1B0752D2007D0E99 /* AAShareBubbles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAShareBubbles.h; sourceTree = "<group>"; };
+		AAD6089F1B0752D2007D0E99 /* AAShareBubbles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAShareBubbles.m; sourceTree = "<group>"; };
+		AAD608A11B0752F3007D0E99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAD608A31B07530F007D0E99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAD608A51B07531A007D0E99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAD608A71B07535C007D0E99 /* icon-share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share.png"; sourceTree = "<group>"; };
+		AAD608A81B07535C007D0E99 /* icon-share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-share@2x.png"; sourceTree = "<group>"; };
+		AAD608A91B07535C007D0E99 /* AAShareBubbles-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AAShareBubbles-Prefix.pch"; sourceTree = "<group>"; };
+		AAD608AA1B07535C007D0E99 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AAD608AB1B07535C007D0E99 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AAD608AC1B07535C007D0E99 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAD608B21B07537B007D0E99 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		AAD608B41B075D10007D0E99 /* ListPlanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPlanController.h; sourceTree = "<group>"; };
+		AAD608B51B075D10007D0E99 /* ListPlanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPlanController.m; sourceTree = "<group>"; };
+		AAD608B71B075DDA007D0E99 /* PlanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanCell.h; sourceTree = "<group>"; };
+		AAD608B81B075DDA007D0E99 /* PlanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +154,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1DE5FB1B088E410018DA9B /* CoreData.framework in Frameworks */,
+				AAD608A61B07531A007D0E99 /* CoreGraphics.framework in Frameworks */,
+				AAD608A41B07530F007D0E99 /* Foundation.framework in Frameworks */,
+				AAD608A21B0752F3007D0E99 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +171,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA1DE60B1B08B7160018DA9B /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DE61E1B08C8E00018DA9B /* Plan.h */,
+				AA1DE61F1B08C8E00018DA9B /* Plan.m */,
+				AA1DE61B1B08C8DF0018DA9B /* PlanList.h */,
+				AA1DE61C1B08C8DF0018DA9B /* PlanList.m */,
+				AAD608B41B075D10007D0E99 /* ListPlanController.h */,
+				AAD608B51B075D10007D0E99 /* ListPlanController.m */,
+				AAD608B71B075DDA007D0E99 /* PlanCell.h */,
+				AAD608B81B075DDA007D0E99 /* PlanCell.m */,
+				AA1DE6051B0892BB0018DA9B /* AddPlanController.h */,
+				AA1DE6061B0892BB0018DA9B /* AddPlanController.m */,
+			);
+			name = Plan;
+			sourceTree = "<group>";
+		};
+		AA1DE62A1B08CFFA0018DA9B /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DE6241B08C8E00018DA9B /* DiaryList.h */,
+				AA1DE6251B08C8E00018DA9B /* DiaryList.m */,
+				AA1DE6211B08C8E00018DA9B /* Diary.h */,
+				AA1DE6221B08C8E00018DA9B /* Diary.m */,
+				AA1DE60F1B08B8150018DA9B /* DiaryController.h */,
+				AA1DE6101B08B8150018DA9B /* DiaryController.m */,
+				AA1DE6121B08B8F00018DA9B /* DiaryCell.h */,
+				AA1DE6131B08B8F00018DA9B /* DiaryCell.m */,
+				AA1DE6271B08CFD80018DA9B /* AddDiaryController.h */,
+				AA1DE6281B08CFD80018DA9B /* AddDiaryController.m */,
+			);
+			name = Diary;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AA1DE62E1B08D4A50018DA9B /* DailyShort */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DE6521B08F73E0018DA9B /* Dailyshort.h */,
+				AA1DE6531B08F73E0018DA9B /* Dailyshort.m */,
+				AA1DE6431B08F73D0018DA9B /* DailyshortList.h */,
+				AA1DE6441B08F73D0018DA9B /* DailyshortList.m */,
+				AA1DE62B1B08D4640018DA9B /* ListDailyShortController.h */,
+				AA1DE62C1B08D4640018DA9B /* ListDailyShortController.m */,
+				AA1DE62F1B08D4CB0018DA9B /* DailyShortCell.h */,
+				AA1DE6301B08D4CB0018DA9B /* DailyShortCell.m */,
+				AA1DE6321B08EACF0018DA9B /* AddDailyShortController.h */,
+				AA1DE6331B08EACF0018DA9B /* AddDailyShortController.m */,
+			);
+			name = DailyShort;
+			sourceTree = "<group>";
+		};
+		AA1DE6351B08EADF0018DA9B /* Habbit */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DE64F1B08F73E0018DA9B /* HabbitList.h */,
+				AA1DE6501B08F73E0018DA9B /* HabbitList.m */,
+				AA1DE64C1B08F73E0018DA9B /* Habbit.h */,
+				AA1DE64D1B08F73E0018DA9B /* Habbit.m */,
+				AA1DE6361B08EB1C0018DA9B /* ListHabbitController.h */,
+				AA1DE6371B08EB1C0018DA9B /* ListHabbitController.m */,
+				AA1DE6391B08EB2D0018DA9B /* HabbitCell.h */,
+				AA1DE63A1B08EB2D0018DA9B /* HabbitCell.m */,
+				AA1DE63C1B08EB470018DA9B /* AddHabbitController.h */,
+				AA1DE63D1B08EB470018DA9B /* AddHabbitController.m */,
+			);
+			name = Habbit;
+			sourceTree = "<group>";
+		};
+		AA1DE63F1B08EB500018DA9B /* TimeCapsule */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DE6491B08F73E0018DA9B /* TimecapsuleList.h */,
+				AA1DE64A1B08F73E0018DA9B /* TimecapsuleList.m */,
+				AA1DE6461B08F73E0018DA9B /* Timecapsule.h */,
+				AA1DE6471B08F73E0018DA9B /* Timecapsule.m */,
+				AA1DE6401B08EB860018DA9B /* TimeCapsuleController.h */,
+				AA1DE6411B08EB860018DA9B /* TimeCapsuleController.m */,
+			);
+			name = TimeCapsule;
+			sourceTree = "<group>";
+		};
 		AA4F679C1B031EB5000C23FE = {
 			isa = PBXGroup;
 			children = (
+				AA1DE5FA1B088E410018DA9B /* CoreData.framework */,
+				AAD608A51B07531A007D0E99 /* CoreGraphics.framework */,
+				AAD608A31B07530F007D0E99 /* Foundation.framework */,
+				AAD608A11B0752F3007D0E99 /* UIKit.framework */,
 				AA4F67A71B031EB5000C23FE /* dailyTour */,
 				AA4F67C11B031EB5000C23FE /* dailyTourTests */,
 				AA4F67A61B031EB5000C23FE /* Products */,
@@ -81,6 +278,11 @@
 		AA4F67A71B031EB5000C23FE /* dailyTour */ = {
 			isa = PBXGroup;
 			children = (
+				AA1DE63F1B08EB500018DA9B /* TimeCapsule */,
+				AA1DE6351B08EADF0018DA9B /* Habbit */,
+				AA1DE62A1B08CFFA0018DA9B /* Diary */,
+				AAD6089E1B0752D2007D0E99 /* AAShareBubbles.h */,
+				AAD6089F1B0752D2007D0E99 /* AAShareBubbles.m */,
 				AA4F67AC1B031EB5000C23FE /* AppDelegate.h */,
 				AA4F67AD1B031EB5000C23FE /* AppDelegate.m */,
 				AA4F67AF1B031EB5000C23FE /* ViewController.h */,
@@ -89,6 +291,15 @@
 				AA4F67B51B031EB5000C23FE /* Images.xcassets */,
 				AA4F67B71B031EB5000C23FE /* LaunchScreen.xib */,
 				AA4F67A81B031EB5000C23FE /* Supporting Files */,
+				AAD608B21B07537B007D0E99 /* View.xib */,
+				AA1DE60B1B08B7160018DA9B /* Plan */,
+				AA1DE5F51B0864380018DA9B /* ViewControllerAA.h */,
+				AA1DE5F61B0864380018DA9B /* ViewControllerAA.m */,
+				AA1DE5F71B0864380018DA9B /* ViewControllerAA.xib */,
+				AA1DE5FC1B088F120018DA9B /* DailyTourModel.xcdatamodeld */,
+				AA1DE6081B08B00F0018DA9B /* HomeController.h */,
+				AA1DE6091B08B00F0018DA9B /* HomeController.m */,
+				AA1DE62E1B08D4A50018DA9B /* DailyShort */,
 			);
 			path = dailyTour;
 			sourceTree = "<group>";
@@ -96,6 +307,14 @@
 		AA4F67A81B031EB5000C23FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA1DE6571B090C020018DA9B /* home.png */,
+				AA1DE6551B090B600018DA9B /* house-grey-md.png */,
+				AAD608A71B07535C007D0E99 /* icon-share.png */,
+				AAD608A81B07535C007D0E99 /* icon-share@2x.png */,
+				AAD608A91B07535C007D0E99 /* AAShareBubbles-Prefix.pch */,
+				AAD608AA1B07535C007D0E99 /* Default.png */,
+				AAD608AB1B07535C007D0E99 /* Default@2x.png */,
+				AAD608AC1B07535C007D0E99 /* Default-568h@2x.png */,
 				AA4F67A91B031EB5000C23FE /* Info.plist */,
 				AA4F67AA1B031EB5000C23FE /* main.m */,
 			);
@@ -200,8 +419,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA4F67B41B031EB5000C23FE /* Main.storyboard in Resources */,
+				AAD608AF1B07535C007D0E99 /* Default.png in Resources */,
 				AA4F67B91B031EB5000C23FE /* LaunchScreen.xib in Resources */,
+				AAD608AD1B07535C007D0E99 /* icon-share.png in Resources */,
+				AAD608B31B07537B007D0E99 /* View.xib in Resources */,
 				AA4F67B61B031EB5000C23FE /* Images.xcassets in Resources */,
+				AAD608B11B07535C007D0E99 /* Default-568h@2x.png in Resources */,
+				AAD608B01B07535C007D0E99 /* Default@2x.png in Resources */,
+				AA1DE6581B090C020018DA9B /* home.png in Resources */,
+				AA1DE5F91B0864380018DA9B /* ViewControllerAA.xib in Resources */,
+				AA1DE6561B090B600018DA9B /* house-grey-md.png in Resources */,
+				AAD608AE1B07535C007D0E99 /* icon-share@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +447,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1DE6511B08F73E0018DA9B /* HabbitList.m in Sources */,
+				AAD608B61B075D10007D0E99 /* ListPlanController.m in Sources */,
+				AA1DE6111B08B8150018DA9B /* DiaryController.m in Sources */,
+				AA1DE5FE1B088F120018DA9B /* DailyTourModel.xcdatamodeld in Sources */,
+				AA1DE6311B08D4CB0018DA9B /* DailyShortCell.m in Sources */,
+				AA1DE64B1B08F73E0018DA9B /* TimecapsuleList.m in Sources */,
+				AA1DE64E1B08F73E0018DA9B /* Habbit.m in Sources */,
+				AA1DE6291B08CFD80018DA9B /* AddDiaryController.m in Sources */,
+				AA1DE6451B08F73D0018DA9B /* DailyshortList.m in Sources */,
+				AA1DE6141B08B8F00018DA9B /* DiaryCell.m in Sources */,
+				AA1DE6071B0892BB0018DA9B /* AddPlanController.m in Sources */,
 				AA4F67B11B031EB5000C23FE /* ViewController.m in Sources */,
+				AA1DE60A1B08B00F0018DA9B /* HomeController.m in Sources */,
 				AA4F67AE1B031EB5000C23FE /* AppDelegate.m in Sources */,
 				AA4F67AB1B031EB5000C23FE /* main.m in Sources */,
+				AA1DE6231B08C8E00018DA9B /* Diary.m in Sources */,
+				AA1DE6541B08F73E0018DA9B /* Dailyshort.m in Sources */,
+				AA1DE6341B08EACF0018DA9B /* AddDailyShortController.m in Sources */,
+				AA1DE5F81B0864380018DA9B /* ViewControllerAA.m in Sources */,
+				AA1DE6381B08EB1C0018DA9B /* ListHabbitController.m in Sources */,
+				AA1DE6261B08C8E00018DA9B /* DiaryList.m in Sources */,
+				AA1DE6201B08C8E00018DA9B /* Plan.m in Sources */,
+				AAD608B91B075DDA007D0E99 /* PlanCell.m in Sources */,
+				AA1DE6421B08EB860018DA9B /* TimeCapsuleController.m in Sources */,
+				AA1DE6481B08F73E0018DA9B /* Timecapsule.m in Sources */,
+				AA1DE63E1B08EB470018DA9B /* AddHabbitController.m in Sources */,
+				AA1DE61D1B08C8DF0018DA9B /* PlanList.m in Sources */,
+				AA1DE63B1B08EB2D0018DA9B /* HabbitCell.m in Sources */,
+				AA1DE62D1B08D4640018DA9B /* ListDailyShortController.m in Sources */,
+				AAD608A01B0752D2007D0E99 /* AAShareBubbles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +667,7 @@
 				AA4F67CA1B031EB5000C23FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA4F67CB1B031EB5000C23FE /* Build configuration list for PBXNativeTarget "dailyTourTests" */ = {
 			isa = XCConfigurationList;
@@ -420,8 +676,22 @@
 				AA4F67CD1B031EB5000C23FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA1DE5FC1B088F120018DA9B /* DailyTourModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA1DE5FD1B088F120018DA9B /* DailyTourModel.xcdatamodel */,
+			);
+			currentVersion = AA1DE5FD1B088F120018DA9B /* DailyTourModel.xcdatamodel */;
+			path = DailyTourModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA4F679D1B031EB5000C23FE /* Project object */;
 }

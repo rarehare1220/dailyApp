@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="bubbleRadiusLabel" destination="uwG-JS-5U9" id="BsA-58-CKU"/>
+                <outlet property="bubbleRadiusSlider" destination="lBa-me-uGs" id="OYM-4u-9Uw"/>
+                <outlet property="radiusLabel" destination="Tab-au-tuc" id="Shh-mk-kEP"/>
+                <outlet property="radiusSlider" destination="PhM-I0-PWw" id="4It-gY-1yG"/>
+                <outlet property="shareButton" destination="b6K-ND-rBC" id="9jU-0W-Evd"/>
+                <outlet property="view" destination="J7a-Z0-xJk" id="KFq-Hr-gZL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="J7a-Z0-xJk">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6K-ND-rBC">
+                    <rect key="frame" x="191" y="263" width="32" height="27"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="icon-share.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shareTapped:" destination="-1" eventType="touchUpInside" id="vAq-ed-iA0"/>
+                    </connections>
+                </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="122" minValue="80" maxValue="130" translatesAutoresizingMaskIntoConstraints="NO" id="PhM-I0-PWw">
+                    <rect key="frame" x="87" y="465" width="174" height="31"/>
+                    <connections>
+                        <action selector="radiusValueChanged:" destination="-1" eventType="valueChanged" id="Yv0-Y4-sYL"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tab-au-tuc">
+                    <rect key="frame" x="271" y="473" width="54" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="91l-O1-yry"/>
+                        <constraint firstAttribute="width" constant="54" id="jkZ-Kb-k2Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Center radius:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quN-Fa-beA">
+                    <rect key="frame" x="89" y="453" width="106" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="106" id="eLY-w8-p4W"/>
+                        <constraint firstAttribute="height" constant="21" id="xD2-Eu-tJF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" name="controlShadowColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="30" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="lBa-me-uGs">
+                    <rect key="frame" x="87" y="524" width="174" height="31"/>
+                    <connections>
+                        <action selector="bubbleRadiusValueChanged:" destination="-1" eventType="valueChanged" id="RU9-df-von"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwG-JS-5U9">
+                    <rect key="frame" x="271" y="524" width="54" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="RdT-Sc-Kae"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Bubble radius:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Usw-PG-JqO">
+                    <rect key="frame" x="89" y="503" width="106" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="HQu-If-FvD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" name="controlShadowColor" catalog="System" colorSpace="catalog"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="uwG-JS-5U9" firstAttribute="top" secondItem="lBa-me-uGs" secondAttribute="top" id="7pF-nW-kLe"/>
+                <constraint firstAttribute="trailing" secondItem="Tab-au-tuc" secondAttribute="trailing" constant="89" id="8Gd-HZ-mfR"/>
+                <constraint firstItem="Usw-PG-JqO" firstAttribute="top" secondItem="PhM-I0-PWw" secondAttribute="bottom" constant="8" symbolic="YES" id="9gh-Ya-Ejm"/>
+                <constraint firstItem="b6K-ND-rBC" firstAttribute="top" secondItem="J7a-Z0-xJk" secondAttribute="top" constant="263" id="Gl1-3d-snD"/>
+                <constraint firstItem="Tab-au-tuc" firstAttribute="leading" secondItem="PhM-I0-PWw" secondAttribute="trailing" constant="12" id="K8b-II-BpJ"/>
+                <constraint firstItem="uwG-JS-5U9" firstAttribute="top" secondItem="Tab-au-tuc" secondAttribute="bottom" constant="30" id="UcU-Ak-35L"/>
+                <constraint firstItem="b6K-ND-rBC" firstAttribute="centerX" secondItem="J7a-Z0-xJk" secondAttribute="centerX" id="ZXD-XY-URC"/>
+                <constraint firstItem="quN-Fa-beA" firstAttribute="leading" secondItem="J7a-Z0-xJk" secondAttribute="leading" constant="89" id="adW-3E-6Wq"/>
+                <constraint firstItem="lBa-me-uGs" firstAttribute="top" secondItem="Usw-PG-JqO" secondAttribute="bottom" id="bsm-K8-gE0"/>
+                <constraint firstItem="lBa-me-uGs" firstAttribute="leading" secondItem="Usw-PG-JqO" secondAttribute="leading" id="dB5-pc-0qd"/>
+                <constraint firstItem="quN-Fa-beA" firstAttribute="trailing" secondItem="Usw-PG-JqO" secondAttribute="trailing" id="eAF-5j-VSg"/>
+                <constraint firstAttribute="bottom" secondItem="lBa-me-uGs" secondAttribute="bottom" constant="182" id="fDM-HV-43k"/>
+                <constraint firstItem="uwG-JS-5U9" firstAttribute="leading" secondItem="Tab-au-tuc" secondAttribute="leading" id="j3B-7B-bzt"/>
+                <constraint firstItem="PhM-I0-PWw" firstAttribute="leading" secondItem="Usw-PG-JqO" secondAttribute="leading" id="lwi-tg-2nk"/>
+                <constraint firstItem="Tab-au-tuc" firstAttribute="trailing" secondItem="uwG-JS-5U9" secondAttribute="trailing" id="rKM-9w-5Fw"/>
+                <constraint firstItem="PhM-I0-PWw" firstAttribute="trailing" secondItem="lBa-me-uGs" secondAttribute="trailing" id="sU3-Ie-YDA"/>
+                <constraint firstItem="Usw-PG-JqO" firstAttribute="top" secondItem="quN-Fa-beA" secondAttribute="bottom" constant="29" id="trG-oy-LiN"/>
+                <constraint firstItem="PhM-I0-PWw" firstAttribute="leading" secondItem="quN-Fa-beA" secondAttribute="leading" id="w0g-LP-TZq"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="120" y="179"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-share.png" width="32" height="27"/>
+    </resources>
+</document>

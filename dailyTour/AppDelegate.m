@@ -16,7 +16,36 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.managedObjectModel = [NSManagedObjectModel mergedModelFromBundles:nil];
+    self.persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]
+                                       initWithManagedObjectModel:self.managedObjectModel];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+                                                         NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths lastObject];
+    NSURL *storeUrl = [NSURL fileURLWithPath:[documentsDirectory stringByAppendingPathExtension:@"DailyTour.sqlite"]];
+    NSError* error;
+    if(![self.persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                      configuration:nil URL:storeUrl options:nil error:&error])
+    {
+        NSLog(@"Could not open/create Persistent Store:\n%@", error.userInfo);
+    }
+    self.managedObjectContext = [[NSManagedObjectContext alloc] init];
+    self.managedObjectContext.persistentStoreCoordinator = self.persistentStoreCoordinator;
+    UINavigationController* navController = (UINavigationController*)self.window.rootViewController;
+    HomeController* homeController = [navController.viewControllers firstObject];
+    homeController.managedObjectContext = self.managedObjectContext;
+    
+    
     // Override point for customization after application launch.
+//        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//        // Override point for customization after application launch.
+//        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+//            self.viewController = [[ViewController alloc] initWithNibName:@"View" bundle:nil];
+//        } else {
+//            self.viewController = [[ViewController alloc] initWithNibName:@"View" bundle:nil];
+//        }
+//        self.window.rootViewController = self.viewController;
+//        [self.window makeKeyAndVisible];
     return YES;
 }
 

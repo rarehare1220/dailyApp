@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Dailyshort" representedClassName="Dailyshort" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dailyshortlist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DailyshortList" inverseName="members" inverseEntity="DailyshortList" syncable="YES"/>
+    </entity>
+    <entity name="DailyshortList" representedClassName="DailyshortList" syncable="YES">
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dailyshort" inverseName="dailyshortlist" inverseEntity="Dailyshort" syncable="YES"/>
+    </entity>
+    <entity name="Diary" representedClassName="Diary" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weather" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="diarylist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DiaryList" inverseName="members" inverseEntity="DiaryList" syncable="YES"/>
+    </entity>
+    <entity name="DiaryList" representedClassName="DiaryList" syncable="YES">
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Diary" inverseName="diarylist" inverseEntity="Diary" syncable="YES"/>
+    </entity>
+    <entity name="Habbit" representedClassName="Habbit" syncable="YES">
+        <attribute name="completeStatus" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="habbitlist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HabbitList" inverseName="members" inverseEntity="HabbitList" syncable="YES"/>
+    </entity>
+    <entity name="HabbitList" representedClassName="HabbitList" syncable="YES">
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Habbit" inverseName="habbitlist" inverseEntity="Habbit" syncable="YES"/>
+    </entity>
+    <entity name="Plan" representedClassName="Plan" syncable="YES">
+        <attribute name="completeStatus" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="planlist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PlanList" inverseName="members" inverseEntity="PlanList" syncable="YES"/>
+    </entity>
+    <entity name="PlanList" representedClassName="PlanList" syncable="YES">
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Plan" inverseName="planlist" inverseEntity="Plan" syncable="YES"/>
+    </entity>
+    <entity name="Timecapsule" representedClassName="Timecapsule" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="timecapsulelist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TimecapsuleList" inverseName="members" inverseEntity="TimecapsuleList" syncable="YES"/>
+    </entity>
+    <entity name="TimecapsuleList" representedClassName="TimecapsuleList" syncable="YES">
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Timecapsule" inverseName="timecapsulelist" inverseEntity="Timecapsule" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Diary" positionX="-36" positionY="45" width="128" height="103"/>
+        <element name="DiaryList" positionX="-18" positionY="63" width="128" height="58"/>
+        <element name="Plan" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="PlanList" positionX="-54" positionY="18" width="128" height="58"/>
+        <element name="Dailyshort" positionX="0" positionY="90" width="128" height="103"/>
+        <element name="DailyshortList" positionX="18" positionY="99" width="128" height="58"/>
+        <element name="Habbit" positionX="36" positionY="126" width="128" height="88"/>
+        <element name="HabbitList" positionX="-9" positionY="72" width="128" height="58"/>
+        <element name="Timecapsule" positionX="0" positionY="81" width="128" height="88"/>
+        <element name="TimecapsuleList" positionX="9" positionY="90" width="128" height="58"/>
+    </elements>
+</model>
